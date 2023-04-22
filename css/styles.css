@@ -1,0 +1,222 @@
+:root {
+    --main-text-color: #434455;
+    --green-color: #31D0AA;
+    --blue-logo-color: #4D5AE5;
+    --dark-color: #2E2F42;
+    --subtitle-color: #8E8F99;
+    --accent-color: #E7E9FC;
+    --light-color: #F4F4FD;
+    --white-color: #ffffff;
+    --hover-color: #404BBF;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+    
+        letter-spacing: 0.02em;
+    
+        color: #434455;
+        background-color: var(--white-color);
+}
+
+/* Header */
+.logo-link {
+    font-family: "Raleway", sans-serif;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 1.17;
+    
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+    color: var(--blue-logo-color);
+
+}
+
+.link {
+    text-decoration: none
+}
+
+.logo-header {
+    text-decoration: none;
+    color: var(--dark-color);
+}
+
+.list {
+    list-style: none;
+}
+
+.nav-link {
+        font-family: "Roboto", sans-serif;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 1.5;
+            text-decoration: none;
+        
+            letter-spacing: 0.02em;
+        
+        color: var(--dark-color);
+}
+
+.nav-link:hover,
+.nav-link:focus {
+    color: var(--hover-color);
+}
+
+.address {
+    font-style: normal
+}
+
+.address-link {
+    font-family: "Roboto", sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        text-decoration: none;
+    
+        letter-spacing: 0.02em;
+    
+        color: var(--main-text-color);
+}
+
+.address-link:hover,
+.address-link:focus {
+    color: var(--hover-color);
+}
+
+/* Footer */
+.footer {
+    background-color: var(--dark-color);
+}
+
+.logo-footer {
+    color: var(--light-color);
+}
+
+.footer-txt {
+        color: var(--light-color);
+}
+
+/* STUDIO PAGE */
+/* Hero Section */
+.hero-section {
+    background-color: var(--dark-color);
+}
+
+.hero-title {
+    font-family: "Roboto",
+        sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 1.07;
+    
+        text-align: center;
+        letter-spacing: 0.02em;
+      
+        color: var(--white-color);
+}
+
+.hero-btn {
+    font-family: "Roboto",
+        sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        background-color: var(--blue-logo-color);
+    
+        letter-spacing: 0.04em;
+
+        color: var(--white-color);
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+    background-color: var(--hover-color);
+}
+
+.hero-btn[type=button] {
+    cursor: pointer;
+}
+
+/* Features */
+.features-title,
+.team-list-title {
+    font-family: "Roboto",
+        sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+    
+        letter-spacing: 0.02em;
+    
+        color: var(--dark-color);
+}
+
+/* Service */
+
+.service-title,
+.team-title {
+    font-family: "Roboto",
+        sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.11;
+    
+        text-align: center;
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
+
+        color: var(--dark-color);
+}
+
+/* Team cards */
+.team {
+    background-color: var(--light-color);
+}
+
+.team-list-item {
+    background-color: var(--white-color);
+}
+
+.team-txt {
+        font-size: 16px;
+        line-height: 1.5;
+
+        letter-spacing: 0.02em;
+    
+        color: var(--main-text-color);
+}
+
+/* PORTFOLIO PAGE */
+/* Main section */
+
+.filter-btn[type=button] {
+font-family: "Roboto",
+        sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+
+    color: var(--blue-logo-color);
+    background-color: var(--light-color);
+
+}
+
+.filter-btn:hover,
+.filter-btn:focus {
+    color: var(--white-color);
+    background-color: var(--hover-color);
+}
