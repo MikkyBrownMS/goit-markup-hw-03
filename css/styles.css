@@ -22,6 +22,11 @@ body {
         color: #434455;
         background-color: var(--white-color);
 }
+
+img {
+    display: block;
+}
+
 /* Reset */
 h1, h2, h3, h4, h5, h6, p, ul {
     list-style: none;
@@ -29,15 +34,45 @@ h1, h2, h3, h4, h5, h6, p, ul {
     margin: 0;
 }
 /* Container */
+.header {
+    outline: 1px solid #e7e9fc;
+    outline-offset: -1px;
+}
 
 .container {
+    display: flex;
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
 
-    outline: 2px solid red;
-    outline-offset: -2px;
+    
 
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+}
+.menu-list {
+    display: flex;
+    align-items: center;
+    margin-right: 332px;
+    gap: 40px;
+}
+
+.menu-link {
+    padding: 24px 0;
+}
+
+.address-list {
+    display: flex;
+    gap:40px;
+    
+}
+
+.header-nav {
+    display: flex;
+    align-items: center;
 }
 
 /* Header */
@@ -47,10 +82,17 @@ h1, h2, h3, h4, h5, h6, p, ul {
         font-weight: 800;
         font-size: 18px;
         line-height: 1.17;
+        
     
         letter-spacing: 0.03em;
         text-transform: uppercase;
     color: var(--blue-logo-color);
+
+}
+.header-logo {
+    display: flex;
+    margin-right: 76px;
+    align-items: center;
 
 }
 
@@ -86,7 +128,9 @@ h1, h2, h3, h4, h5, h6, p, ul {
 }
 
 .address {
-    font-style: normal
+    font-style: normal;
+    display: flex;
+
 }
 
 .address-link {
@@ -96,6 +140,7 @@ h1, h2, h3, h4, h5, h6, p, ul {
         font-size: 16px;
         line-height: 1.5;
         text-decoration: none;
+        
     
         letter-spacing: 0.02em;
     
@@ -109,6 +154,7 @@ h1, h2, h3, h4, h5, h6, p, ul {
 
 /* Footer */
 .footer {
+    padding: 100px 0;
     background-color: var(--dark-color);
 }
 
@@ -117,8 +163,23 @@ h1, h2, h3, h4, h5, h6, p, ul {
 }
 
 .footer-txt {
+    display: block;
+    max-width: 264px;
         color: var(--light-color);
+
 }
+
+.footer-container {
+    display: block;
+
+}
+
+.footer-logo {
+    display: inline-block;
+    margin-bottom: 16px;
+
+}
+
 
 /* STUDIO PAGE */
 /* Hero Section */
