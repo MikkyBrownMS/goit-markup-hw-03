@@ -184,17 +184,27 @@ h1, h2, h3, h4, h5, h6, p, ul {
 /* STUDIO PAGE */
 /* Hero Section */
 .hero-section {
+    padding: 188px 0;
     background-color: var(--dark-color);
 }
 
+.hero-section .container {
+    display: block;
+
+}
+
 .hero-title {
+    display: block;
+    margin: 0px auto 48px auto;
+    max-width: 496px;
+
     font-family: "Roboto",
         sans-serif;
         font-style: normal;
         font-weight: 700;
         font-size: 56px;
         line-height: 1.07;
-    
+
         text-align: center;
         letter-spacing: 0.02em;
       
@@ -202,6 +212,13 @@ h1, h2, h3, h4, h5, h6, p, ul {
 }
 
 .hero-btn {
+    display: block;
+    margin: 0 auto;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
+
     font-family: "Roboto",
         sans-serif;
         font-style: normal;
@@ -211,6 +228,8 @@ h1, h2, h3, h4, h5, h6, p, ul {
         background-color: var(--blue-logo-color);
     
         letter-spacing: 0.04em;
+
+
 
         color: var(--white-color);
 }
@@ -225,6 +244,26 @@ h1, h2, h3, h4, h5, h6, p, ul {
 }
 
 /* Features */
+.features-section {
+    padding: 120px 0px;
+}
+
+.features-list {
+    display: flex;
+    gap: 24px;
+}
+
+.features-item {
+    display: block;
+    width: calc((100% - 72px) / 4);
+    height: 104px;
+}
+
+.features-title {
+    margin-bottom: 8px;
+}
+
+
 .features-title,
 .team-list-title {
     font-family: "Roboto",
@@ -240,6 +279,24 @@ h1, h2, h3, h4, h5, h6, p, ul {
 }
 
 /* Service */
+
+.service-section {
+    padding-bottom: 120px;
+}
+
+.service-section .container {
+    display: block;
+}
+
+.service-list {
+    display: flex;
+    gap: 24px;
+}
+
+.service-title {
+    display: block;
+    margin-bottom: 72px;
+}
 
 .service-title,
 .team-title {
@@ -258,15 +315,46 @@ h1, h2, h3, h4, h5, h6, p, ul {
 }
 
 /* Team cards */
+
+.team-section {
+    padding: 120px 0;
+}
+
+.team-section .container {
+    display: block;
+
+}
+
+.team-title {
+    display: block;
+    margin-bottom: 72px;
+}
+
+.team-list {
+    display: flex;
+    gap: 24px;
+}
+
+.team-card {
+    display: block;
+    padding: 32px 16px;
+}
+
 .team {
     background-color: var(--light-color);
 }
 
 .team-list-item {
+    display: block;
+    margin-bottom: 8px;
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
+    text-align: center;
     background-color: var(--white-color);
 }
 
 .team-txt {
+    text-align: center;
         font-size: 16px;
         line-height: 1.5;
 
